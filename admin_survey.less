@@ -1,0 +1,244 @@
+#wrapper{
+	.tab_body{
+		table.table{
+			margin-bottom: 0px;
+			thead{
+				tr{
+					th{
+						background-color: #3E4B5C;
+						border-bottom: none;
+						border-right: 1px solid #fff;
+						color: #fff;
+						font-size: 14px;
+						font-weight: normal;
+						padding: 7px 11px;
+
+						&:nth-child(n+2){
+							text-align: center;
+						}
+
+						&:first-child{
+							width: 287px;
+						}
+						&:nth-child(2){
+							width: 160px;
+						}
+						&:nth-child(3){
+							width: 255px;
+						}
+						&:nth-child(4){
+							width: 160px;
+						}
+						&:last-child{
+							border-right: none;
+						    width: 234px;
+						}
+					}
+				}
+			}
+		}	
+		.nano{
+			.nano-content{
+			    height: 100%;
+
+				*{
+					color: #3E4B5C;
+				}
+
+				table.table{
+					margin-bottom: 0px;
+					
+					thead{
+						tr{
+							th{
+								background-color: #3E4B5C;
+								border-bottom: none;
+								border-right: 1px solid #fff;
+								color: #fff;
+								font-size: 14px;
+								font-weight: normal;
+								padding: 7px 11px;
+
+								&:nth-child(n+2){
+									text-align: center;
+								}
+
+								&:first-child{
+									width: 287px;
+								}
+								&:nth-child(2){
+									width: 200px;
+								}
+								&:last-child{
+									border-right: none;
+									width: 240px;
+								}
+							}
+						}
+					}
+
+					>tbody{
+						tr{
+							td{
+								padding: 0px 11px;
+							}
+						}
+
+						>tr{
+							&:nth-child(4n+1){
+								td{
+									background-color: #F1F4F8;
+								}
+							}
+							>td{
+								border-right: 1px solid #3E4B5C;
+								border: none;
+								font-size: 12px;
+								padding: 6px 11px;
+
+								&:first-child{
+									width: 291px;
+								}
+								&:nth-child(2){
+									width: 162px;
+								}
+								&:nth-child(3){
+									width: 258px;
+								}
+								&:nth-child(4){
+									width: 161px;
+								}
+								&:last-child{
+									border-right: none;
+									width: 236px;
+									
+									a{
+										text-decoration: underline;
+										color:#009ac7;
+									}
+								}
+
+								&:nth-child(n+2){
+									text-align: center;
+								}
+
+								&[colspan="5"]{
+									padding: 0px !important;
+								}
+
+								.caret{
+									margin-top: 8px;
+								}
+
+								.accordian-body{
+									padding:0px;
+
+									.accordion_table{
+										tr{
+											&:nth-child(odd){
+												td{
+													background-color: #F1F4F8;
+												}
+											}
+
+											td{
+												border-right: 1px solid #3E4B5C;
+												font-size: 12px;
+												padding: 6px 11px;
+
+												&:nth-child(n+2){
+													text-align: center;
+												}
+												
+												&:first-child{
+													padding: 6px 30px;
+													width: 289px;
+												}
+												&:nth-child(2){
+													width: 161px;
+												}
+												&:nth-child(3){
+													width: 256px;
+												}
+												&:nth-child(4){
+													width: 160px;
+												}
+												&:last-child{
+													border:none;
+													width: 235px;
+												}
+											}
+										}
+									}
+								}
+
+								&:first-child{
+									cursor: pointer;
+
+									.accordian-body{
+										padding:0px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.nano-pane{
+				width: 5px;
+			}
+		}
+	}
+
+	.survey_details_modal{
+		margin-left: 230px;
+		margin-top: 45px;
+		
+		.modal-dialog{
+			width: 586px;
+
+			.modal-content{
+				border-radius: 0px;
+				box-shadow: none;
+				
+				.modal-body{
+					*{
+						color: #3E4B5C;
+					}
+
+					.nano{
+						height: 89%;
+						margin-top: 10px;
+						position: absolute;
+						width: 97%;
+
+						.nano-content{
+							height: 100%;
+							position: relative;
+							width: 100%;
+
+							> ul.list-unstyled{
+								>li{
+									margin-bottom: 20px;
+
+									span{
+										font-size: 12px;
+									}
+									
+									&:last-child{
+										margin-bottom: 0px;
+									}
+								}
+							}
+						}
+
+						.nano-pane{
+							width: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
